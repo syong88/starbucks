@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Starbucks Coffee Korea</title>
+<link rel="shortcut icon" href="/common/img/common/favicon.ico"	type="image/ico">
+<link href="/common/css/reset.css" rel="stylesheet">
+<link href="/common/css/style.css" rel="stylesheet">
+<link href="/common/css/jquery-ui.css" rel="stylesheet">
+ 
+<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<link href="/common/css_ie/style.css" rel="stylesheet">
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('figure');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+	</script>
+<![endif]-->
+
+
+	<link href="/common/css/style_error.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrap">
+	
+
+
+
+
+			
+			
+
+	
+	<!-- container -->
+	<div id="container">
+		<div class="unusual_contact_wrap">
+			<figure class="icon_unusual"></figure>
+			<div class="unusual_contact_txt">
+				<strong class="unusual_contact_emphasis">서비스 <span class="t_006633">이용에 불편</span>을 드려 죄송합니다.</strong>
+				<p>요청한 웹페이지의 이름이 바뀌었거나 현재 <strong>사용할 수 없거나 삭제</strong>되었습니다.<br>입력하신 주소가 정확한지 <strong>다시 한번 확인해보시기 바랍니다.</strong></p>
+				<ul class="unusual_contact_btns">
+					<li class="unusual_contact_btn1"><a href="/">메인 페이지로 이동</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- container end -->
+
+	
+			
+			
+</div>
+</body>
+</html>

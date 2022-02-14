@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+
+* { padding:0; margin:0; vertical-align:top; border:0; }
+html,body { width:100%; height:100%; }
+html { overflow-y:scroll; } /*hidden 스크롤바 없애는 속성값 auto: 자동*/
+body { font:400 14px/1 'Noto Sans KR','sans-selif'; color:#444; background:#fff; }
+a { color:#444; text-decoration:none; }
+
+h1,h2,h3,h4,h5,h6 { font-weight:400; font-size:14px; }
+i,em,address { font-style:normal; }
+ul { list-style:none; }
+input { display:block; border:0; }
+
+.fixedclear:after { content:''; display:block; clear:both; } 
+.blind { display:block; text-indent:-2000px; overflow:hidden; }
+
+#wrap { width:100%; overflow:hidden; }
+
+	#skip { z-index:4; position:absolute; top:0; left:0; width:100%; }
+	#skip>ul {  }
+	#skip>ul>li {  }
+	#skip>ul>li>a { display:block; width:100%; padding:0; font-size:0; background:#f0f0f0; color:#000; text-align:center; } /*중요*/
+	#skip>ul>li>a:focus { outline:1px solid rgba(200,0,0, .3); padding:20px 0; font-size:20px; } /*중요 총높이 60 위아래20=40 글씨크기20*/
+
+/* .fixedclear:after { content:''; display:block; clear:both; }  */
+
+	
+	
+/* a:link { color:#444; text-decoration:none; } */
+/* a:visited { color:#44c; text-decoration:none; } */
+/* a:hover { color:#c44; text-decoration:underline; } */
+/* a:active { color:#4c4; text-decoration:overline; } */
+/* a:focus { color:#c44; text-decoration:underline; outline:1px solid #4cc; } */
